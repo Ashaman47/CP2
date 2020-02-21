@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Joke Machine</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Joke Machine</h1>
+
+    <p>
+        This app uses the <a href="https://sv443.net/jokeapi">Joke API</a> to tell a joke.
+    </p>
+
+    <form class="pure-form>" <fieldset>
+    <legend>Select a joke category: </legend>
+    <select id="selector">
+      <option value="Programming">Programming</option>
+      <option value="Miscellaneous">Miscellaneous</option>
+      <option value="Dark">Dark</option>
+      <option value="Any">Any</option>
+    </select>
+    <p></p>
+    <p id="Disclaimer">!!Disclaimer!!: The dark jokes can be very dark, so beware!!</p>
+    <button id="Joke Time!" class="pure-button pure-button-primary">Joke Time!</button>
+    </fieldset>
+  </form>
+    <p id="result"></p>
+
+    <script text="type/javascript" src="/script.js">
+    </script>
+    <a class="footer" href="https://github.com/Ashaman47/CP2">Find me on <em>Github</em></a>
+</body>
+
+</html>

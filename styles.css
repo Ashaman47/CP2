@@ -1,0 +1,57 @@
+
+h1 {
+    border-bottom: 2px solid black;
+    padding-left: 20px;
+}
+body {
+    font-size: 16px;
+    padding: 20px 100px 0px 100px;
+    background: #f3f3f3;
+    background-color: #FFFFFF;
+}
+
+/* Form */
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+input[type=text] {
+    font-size: 1em;
+}
+
+input[type=checkbox] {
+    margin-left: 5px;
+}
+
+input[type=range] {
+    margin-left: 10px;
+}
+
+button {
+    font-family: 'Arvo';
+    font-size: 1em;
+    color: #A8F9FF;
+}
+
+li {
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 50px;
+}
+#Disclaimer {
+    background-color: orangered;
+    padding: 10px;
+    width: 500px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0078e7;
+    color: white;
+    text-align: center;
+}
